@@ -10,16 +10,13 @@ The `credentials.json` file will be needed in the working directory.
 
 ## Basic Usage
 
-Just run the script with target folder name and the destination path (optional, default value is `./`) where you want to save to.
+Just run the script with target folder name and the destination path (using fill path, default value is `./DEST`) where you want to save to.
+
+Try `python download.py -h` for more information.
 
 ### Python 3.6+
 
 ```
-$ python3 download.py folder_name [path]
+$ python download.py [-h] [-id] SOURCE DEST
 ```
 
-### Python 2.7
-
-```
-$ python download-2.py folder_name [path]
-```
